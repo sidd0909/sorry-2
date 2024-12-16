@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff00ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: #ffff00;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .card-content {
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+  }
+  
+  .apology-message {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .signature {
+    font-size: 20px;
+    font-style: italic;
+    color: #333;
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      padding: 30px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    .message {
+      font-size: 16px;
+    }
+    .signature {
+      font-size: 18px;
+    }
+  }
+  
